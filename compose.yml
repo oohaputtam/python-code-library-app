@@ -10,7 +10,7 @@ services:
       - mynetwork
 
   auth_service:
-    image: oohaputtam/flm-pyton:auth
+    image: oohaputtam/flm-python:auth
     deploy:
       replicas: 1
     ports:
