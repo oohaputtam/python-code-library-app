@@ -50,10 +50,7 @@ services:
       - "5000:5000"
     networks:
       - mynetwork
-    depends_on:
-      - auth_service
-      - book_service
-      - borrow_service
+    
 
 networks:
   mynetwork:
